@@ -34,6 +34,7 @@
 		00525CB527CDD72C009058B0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00525CB427CDD72C009058B0 /* HomeViewController.swift */; };
 		00525CBA27CDD732009058B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00525CB927CDD732009058B0 /* Assets.xcassets */; };
 		00525CBD27CDD732009058B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00525CBB27CDD732009058B0 /* LaunchScreen.storyboard */; };
+		005A988427E70472003BAFD6 /* RecommandationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A988327E70472003BAFD6 /* RecommandationsResponse.swift */; };
 		00AFC4E627CF023500DE6B51 /* Extentsions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AFC4E527CF023500DE6B51 /* Extentsions.swift */; };
 		00AFC4E827CF14A800DE6B51 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AFC4E727CF14A800DE6B51 /* AuthResponse.swift */; };
 		00FE9EE127D1E2EF00DACC8B /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FE9EE027D1E2EF00DACC8B /* SettingsModels.swift */; };
@@ -70,6 +71,7 @@
 		00525CB927CDD732009058B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00525CBC27CDD732009058B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00525CBE27CDD732009058B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005A988327E70472003BAFD6 /* RecommandationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommandationsResponse.swift; sourceTree = "<group>"; };
 		00AFC4E527CF023500DE6B51 /* Extentsions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentsions.swift; sourceTree = "<group>"; };
 		00AFC4E727CF14A800DE6B51 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		00FE9EE027D1E2EF00DACC8B /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				0027B5E027DDD5470039CF11 /* FeaturedPlaylistsResponse.swift */,
 				0027B5E227DDD9E20039CF11 /* RecommendedGenresResponse.swift */,
 				0027B5E427DDDCD00039CF11 /* RecommendationsResponse.swift */,
+				005A988327E70472003BAFD6 /* RecommandationsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				00AFC4E827CF14A800DE6B51 /* AuthResponse.swift in Sources */,
 				00AFC4E627CF023500DE6B51 /* Extentsions.swift in Sources */,
 				000E91ED27CDE4E900AFAB70 /* AudioTrack.swift in Sources */,
+				005A988427E70472003BAFD6 /* RecommandationsResponse.swift in Sources */,
 				000E91DF27CDE36B00AFAB70 /* PlayerViewController.swift in Sources */,
 				00525CB527CDD72C009058B0 /* HomeViewController.swift in Sources */,
 				000E91D727CDE32000AFAB70 /* AuthViewController.swift in Sources */,

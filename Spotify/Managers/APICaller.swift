@@ -101,7 +101,7 @@ final class APICaller {
 
     public func getRecommendations(genres: Set<String>, completion: @escaping ((Result<RecommendationsResponse, Error>) -> Void)) {
         let seeds = genres.joined(separator: ",")
-        createRequest(with: URL(string: Constants.baseAPIURL + "/recommendations?limit=40&seed_genres=\(seeds)"), type: .GET
+        createRequest(with: URL(string: Constants.baseAPIURL + "/recommendations?limit=25&seed_genres=\(seeds)"), type: .GET
         ) { request in
             print(request.url?.absoluteString)
             //print("Starting recommendations api call.....")
